@@ -1,0 +1,4 @@
+LM_repo_name : "Language_model/6gram_wav2vec2-bh_LM_All"
+AM_repo_name : 'Trained_Model/wav2vec2-bh'
+csv_path : "Result/bhojpuri_AM_LM-All.csv"
+dataset_path : "Dataset/bh_processed"

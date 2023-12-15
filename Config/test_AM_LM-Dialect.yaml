@@ -1,0 +1,9 @@
+dataset_name : "Dataset/bh_dev_dialect"
+d1_repo_name : "Language_model/d1_6_wav2vec2-bh-LM-dialect"
+d2_repo_name : "Language_model/d2_6_wav2vec2-bh-LM-dialect"
+d3_repo_name : "Language_model/d3_6_wav2vec2-bh-LM-dialect"
+d4_repo_name : ""
+d5_repo_name : ""
+model_name : "Trained_Model/wav2vec2-bh"
+lang_code : 'bh'
+csv_path : "Result/bhopuri_AM_LM_Dialect.csv"

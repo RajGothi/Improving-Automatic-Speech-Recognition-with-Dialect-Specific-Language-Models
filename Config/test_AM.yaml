@@ -1,0 +1,3 @@
+repo_name : "Trained_Model/wav2vec2-bh"
+csv_path : "Result/bhojpuri_AM.csv"
+dataset_path : "Dataset/bh_processed"

@@ -1,0 +1,8 @@
+additional_corpus_path : "RESPIN_ASRU_Challenge_2023/corpus/bh/train/additional_text/utt_text_bh.txt"
+train_text_path : "./RESPIN_ASRU_Challenge_2023/corpus/bh/train/text"
+output_text_path : "Language_model/text_bh.txt"
+lang_code : 'bh'
+model_name : "Trained_Model/wav2vec2-bh"
+output_LM_name : "Language_model/6gram_wav2vec2-bh_LM_All"
+n_gram : 6
+

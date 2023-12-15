@@ -1,0 +1,13 @@
+repo_name: "Trained_Model/wav2vec2-bh"
+dataset_name: "Dataset/bh_processed"
+vocab_path: "Vocab/vocab_bh.json"
+wav2vec2model_name: "facebook/wav2vec2-base"
+batch_size: 8
+epochs: 3
+save_steps: 200
+eval_steps: 200
+logging_steps: 200
+learning_rate: 0.0004
+weight_decay: 0.005
+warmup_steps: 200
+save_total_limit: 2

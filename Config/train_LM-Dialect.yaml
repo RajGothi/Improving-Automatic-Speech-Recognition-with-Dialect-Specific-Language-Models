@@ -1,0 +1,8 @@
+lang_code : 'bh'
+total_dialect : 3
+n_gram : 6
+output_LM_name : "wav2vec2-bh-LM-dialect"    #It will be stored in Language_Model folder
+model_name : "Trained_Model/wav2vec2-bh"
+train_text_path : "./RESPIN_ASRU_Challenge_2023/corpus/bh/train/text"
+utt2lang_path : "RESPIN_ASRU_Challenge_2023/corpus/bh/train/utt2lang"
+additional_corpus_path : 'RESPIN_ASRU_Challenge_2023/corpus/bh/train/additional_text/utt_text_bh.txt'
