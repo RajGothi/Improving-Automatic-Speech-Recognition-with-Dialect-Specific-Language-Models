@@ -118,6 +118,7 @@ def map_to_result(batch):
     batch["pred_str"] = processor.batch_decode(logits.cpu().numpy())[0]
     batch["pred_str"]= ''.join(batch["pred_str"])
     batch["text"] = processor_decode.decode(batch["labels"])
+    batch['text'] = batch['text'].replace('[UNK]','')
 
     return batch
 
