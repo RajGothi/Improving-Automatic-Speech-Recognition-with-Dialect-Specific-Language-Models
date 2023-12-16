@@ -58,6 +58,7 @@ To run the model for one audio, you can use the notebook below.
  [Notebook](Notebook/inference.ipynb)
 
 ## Results
+All the Below results are in WER (Word Error Rate).
 
 ### Overall Performance across Dialect in different systems:
 | Model                | Bengali | Bhojpuri |
