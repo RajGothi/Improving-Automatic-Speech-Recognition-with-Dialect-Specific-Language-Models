@@ -31,12 +31,12 @@ python eval_dialect_dataset.py \
 ```
 
 
-## Acoustic Model Training:
+## Acoustic Model(AM) Training:
 ```bash
 python train_AM.py --config_path="Config/train_AM.yaml"
 ```
 
-## Language Model training:
+## Language Model(LM) Training:
 ```bash
 python train_LM-All.py --config_path="Config/train_LM-All.yaml"
 python train_LM_Dialect.py --config_path='Config/train_LM-Dialect.yaml'
