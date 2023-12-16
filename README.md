@@ -63,9 +63,9 @@ To run the model for one audio, you can use the notebook below.
 |----------------------|---------|----------|
 | AM                   | 21.8    | 21.21    |
 | AM + 5 gram LM-All   | 16.04   | 16.76    |
-| AM + 5 gram LM-Dialect| 15.62   | 16.48    |
+| AM + 5 gram LM-Dialect| **15.62**   | 16.48    |
 | AM + 6 gram LM-All   | 16.06   | 16.67    |
-| AM + 6 gram LM-Dialect| 15.68   | 16.26    |
+| AM + 6 gram LM-Dialect| 15.68   | **16.26**    |
 
 
  
