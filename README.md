@@ -56,3 +56,16 @@ python test_AM_LM-Dialect.py --config_path="Config/test_AM_LM-Dialect.yaml"
 To run the model for one audio, you can use the notebook below.
 
  [Notebook](Notebook/inference.ipynb)
+
+## Results
+
+| Model                | Bengali | Bhojpuri |
+|----------------------|---------|----------|
+| AM                   | 21.8    | 21.21    |
+| AM + 5 gram LM-All   | 16.04   | 16.76    |
+| AM + 5 gram LM-Dialect| 15.62   | 16.48    |
+| AM + 6 gram LM-All   | 16.06   | 16.67    |
+| AM + 6 gram LM-Dialect| 15.68   | 16.26    |
+
+
+ 
