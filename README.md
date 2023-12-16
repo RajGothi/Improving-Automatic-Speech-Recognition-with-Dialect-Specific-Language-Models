@@ -90,7 +90,7 @@ All the Below results are in WER (Word Error Rate).
 | All                    | 21.21 | 16.04              | 15.62                  |
 
 ## Contact
-If you have any questions, please feel free to contact me at: [LinkedIn](https://www.linkedin.com/in/raj-gothi-191246187/),[Email](rajgothi6@gmail.com)
+If you have any questions, please feel free to contact me at: [LinkedIn](https://www.linkedin.com/in/raj-gothi-191246187/),[Email](mailto:rajgothi6@gmail.com)
 
 ## Reference
 If you are using this code, please cite it as follows.
