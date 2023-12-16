@@ -49,4 +49,7 @@ python test_AM_LM-All.py --config_path="Config/test_AM_LM-All.yaml"
 python test_AM_LM-Dialect.py --config_path="Config/test_AM_LM-Dialect.yaml"
 ```
 
+## Inference
+To run the model for one audio, you can use the notebook below.
 
+ [Notebook](Notebook/inference.ipynb)
