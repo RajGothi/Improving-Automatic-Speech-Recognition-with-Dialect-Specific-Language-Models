@@ -59,15 +59,34 @@ To run the model for one audio, you can use the notebook below.
 
 ## Results
 
+### Overall Performance across Dialect in different systems:
 | Model                | Bengali | Bhojpuri |
 |----------------------|---------|----------|
 | AM                   | 21.8    | 21.21    |
-|----------------------|---------|----------|
 | AM + 5 gram LM-All   | 16.04   | 16.76    |
 | AM + 5 gram LM-Dialect| **15.62**   | 16.48    |
-|----------------------|---------|----------|
 | AM + 6 gram LM-All   | 16.06   | 16.67    |
 | AM + 6 gram LM-Dialect| 15.68   | **16.26**    |
+
+
+### Bhojpuri Language:
+| Dialect/Model         | AM    | AM + 6 gram LM-All | AM + 6 gram LM-Dialect |
+|-----------------------|-------|--------------------|------------------------|
+| D1                    | 20.56 | 14.90              | 14.70                  |
+| D2                    | 20.89 | 16.00              | 15.80                  |
+| D3                    | 21.97 | 18.59              | 17.88                  |
+| All                   | 21.21 | 16.67              | 16.26                  |
+
+
+### Bengali Language:
+| Dialect/Model          | AM    | AM + 5 gram LM-All | AM + 5 gram LM-Dialect |
+|------------------------|-------|--------------------|------------------------|
+| D1                     | 19.76 | 15.02              | 14.02                  |
+| D2                     | 21.44 | 16.08              | 15.60                  |
+| D3                     | 18.40 | 14.44              | 13.93                  |
+| D4                     | 20.71 | 16.21              | 15.73                  |
+| D5                     | 27.90 | 18.19              | 18.15                  |
+| All                    | 21.21 | 16.04              | 15.62                  |
 
 
  
