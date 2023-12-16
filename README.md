@@ -89,5 +89,21 @@ All the Below results are in WER (Word Error Rate).
 | D5                     | 27.90 | 18.19              | 18.15                  |
 | All                    | 21.21 | 16.04              | 15.62                  |
 
+## Contact
+If you have any questions, please feel free to contact me at: [LinkedIn](https://www.linkedin.com/in/raj-gothi-191246187/),[Email](rajgothi6@gmail.com)
 
+## Reference
+
+```bibtex
+@InProceedings{10.1007/978-3-031-48309-7_5,
+author="Gothi, Raj
+and Rao, Preeti",
+title="Improving Automatic Speech Recognition with Dialect-Specific Language Models",
+booktitle="Speech and Computer",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="57--67",
+}
+```
  
