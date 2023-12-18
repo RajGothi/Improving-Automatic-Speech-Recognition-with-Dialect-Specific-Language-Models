@@ -71,6 +71,7 @@ All the results below are in WER (Word Error Rate).
 | AM + 6 gram LM-All   | 16.06   | 16.67    |
 | AM + 6 gram LM-Dialect| 15.68   | **16.26**    |
 
+Every one of the dialects benefits from the corresponding dialect-specific LM over the overall LM.
 
 ### Bhojpuri Language:
 | Dialect/Model         | AM    | AM + 6 gram LM-All | AM + 6 gram LM-Dialect |
