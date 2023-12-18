@@ -1,8 +1,8 @@
 ## Abstract
-We present an end-to-end Automatic Speech Recognition (ASR) system in the context of the recent challenge tasks for Bhojpuri and Bengali. Our implementation follows the currently popular wav2vec models while we investigate ways to leverage the dialect-categorised data in order to improve ASR performance. We report overall improvements in word error rate with dialect-specific language models for each of the languages. We present an analysis that provides insights into some of the factors underlying the success of dialect-specific language models.
+We present an end-to-end **Automatic Speech Recognition (ASR)** system in the context of the recent challenge tasks for **Bhojpuri** and **Bengali**. Our implementation follows the currently popular **wav2vec2 models** while we investigate ways to leverage the dialect-categorised data in order to **improve** ASR performance. We report overall improvements in word error rate with **dialect-specific language models** for each of the languages. We present an analysis that provides insights into some of the factors underlying the success of dialect-specific language models. [Paper](https://doi.org/10.1007/978-3-031-48309-7_5) , [Oral Presentation](https://docs.google.com/presentation/d/1RM0qdd-MR4g8gZ-IxYS1HkIuEeB1IKpwSZb_Y4yS_sw/edit#slide=id.g29f3f2236aa_1_38)
 
-## Model
-
+## Method
+![Model](Figure/Model.png)
 
 ## Requirements
 ```bash
@@ -55,12 +55,12 @@ python test_AM_LM-Dialect.py --config_path="Config/test_AM_LM-Dialect.yaml"
 ```
 
 ## Inference
-To run the model for one audio, you can use the notebook below.
+To run the model for one speech audio, you can use the notebook below.
 
  [Notebook](Notebook/inference.ipynb)
 
 ## Results
-All the Below results are in WER (Word Error Rate).
+All the results below are in WER (Word Error Rate).
 
 ### Overall Performance across Dialect in different systems:
 | Model                | Bengali | Bhojpuri |
