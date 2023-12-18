@@ -4,8 +4,6 @@ We present an end-to-end **Automatic Speech Recognition (ASR)** system in the co
 ## Method
 <img src="https://github.com/RajGothi/Improving-Automatic-Speech-Recognition-with-Dialect-Specific-Language-Models/blob/master/Figure/Model.png" width=70% height=70%>
 
-![Model](Figure/Model.png)
-
 ## Requirements
 ```bash
 pip install .
