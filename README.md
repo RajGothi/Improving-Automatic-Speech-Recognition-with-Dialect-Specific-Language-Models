@@ -98,7 +98,7 @@ Every one of the dialects benefits from the corresponding dialect-specific LM ov
 If you have any questions, please feel free to contact me at: [LinkedIn](https://www.linkedin.com/in/raj-gothi-191246187/),[Email](mailto:rajgothi6@gmail.com)
 
 ## Citation
-If you are using this code, please cite it as follows.
+If you are using this code, please cite:
 
 ```bibtex
 @InProceedings{10.1007/978-3-031-48309-7_5,
