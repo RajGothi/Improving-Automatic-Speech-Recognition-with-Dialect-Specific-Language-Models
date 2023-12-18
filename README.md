@@ -28,7 +28,7 @@ python pre_processing.py \
 To Create the Dialect ID based Dataset for Evaluation:
 ```bash
 python eval_dialect_dataset.py \
-  --dev_path "/home/raj/Lab/Dataset/bh/bh_dev/dev" \
+  --dev_path "Lab/Dataset/bh/bh_dev/dev" \
   --utt2lang_path "RESPIN_ASRU_Challenge_2023/corpus/bh/dev/utt2lang" \
   --dev_text_path "RESPIN_ASRU_Challenge_2023/corpus/bh/dev/text" \
   --processor_name "Trained_Model/wav2vec2-bh" \
