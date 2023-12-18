@@ -55,12 +55,12 @@ python test_AM_LM-Dialect.py --config_path="Config/test_AM_LM-Dialect.yaml"
 ```
 
 ## Inference
-To run the model for one audio, you can use the notebook below.
+To run the model for one speech audio, you can use the notebook below.
 
  [Notebook](Notebook/inference.ipynb)
 
 ## Results
-All the Below results are in WER (Word Error Rate).
+All the results below are in WER (Word Error Rate).
 
 ### Overall Performance across Dialect in different systems:
 | Model                | Bengali | Bhojpuri |
