@@ -3,7 +3,7 @@ We present an end-to-end **Automatic Speech Recognition (ASR)** system in the co
 
 ## Method
 ![Model](Figure/Model.png)
-![Model](Figure/Model_1.png)
+
 ## Requirements
 ```bash
 pip install .
